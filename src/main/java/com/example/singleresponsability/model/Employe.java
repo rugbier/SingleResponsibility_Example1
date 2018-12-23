@@ -13,8 +13,4 @@ public class Employe {
     @Override public String toString() {
         return "Age=" + getAge() + ", Salary=" + getSalary();
     }
-
-    public void print() {
-        System.out.println(toString());
-    }
 }

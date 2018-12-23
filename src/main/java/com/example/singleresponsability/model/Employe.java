@@ -9,8 +9,4 @@ public class Employe {
     public int getSalary() {
         return 20000;
     }
-
-    @Override public String toString() {
-        return "Age=" + getAge() + ", Salary=" + getSalary();
-    }
 }
